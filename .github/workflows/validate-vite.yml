@@ -1,0 +1,27 @@
+name: Validate Vite collision guard on Linux
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Vite fork commit to validate
+        required: true
+permissions:
+  contents: read
+jobs:
+  vite:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: tonoizer/vite
+          ref: ${{ inputs.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm install --global pnpm@10.28.2
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build
+      - run: pnpm run typecheck
+      - run: pnpm run test
+      - run: pnpm exec oxfmt --check src/plugins/pluginVarRemoteEntry.ts src/plugins/__tests__/pluginVarRemoteEntry.test.ts
