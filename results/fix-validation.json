@@ -1,0 +1,30 @@
+{
+  "core": {
+    "pr": "https://github.com/module-federation/core/pull/5223",
+    "head": "e55c4e5d106da1afdce15e6152953a52a6ff2985",
+    "packageTestsPassed": 152,
+    "independentReview": "no remaining blocking findings",
+    "buildLintScopedFormat": "passed",
+    "integration": "actual Node HTTP loading and native/enhanced Rspack with rebuilt Core passed",
+    "upstreamCI": "additional workflows require maintainer approval"
+  },
+  "vite": {
+    "pr": "https://github.com/module-federation/vite/pull/1512",
+    "head": "a2519cb0649ab6d4553dfb80bc2c10e30ba0ca63",
+    "testsPassed": 1885,
+    "testsSkipped": 1,
+    "independentReview": "no remaining blocking findings, including maintainer follow-up",
+    "linuxRun": "https://github.com/tonoizer/module-federation-global-name-repro/actions/runs/40711386915",
+    "conclusion": "success"
+  },
+  "rspack": {
+    "pr": "https://github.com/web-infra-dev/rspack/pull/16323",
+    "head": "a1828bcbe610fafd2c7399ab6d7fac4c79e3217f",
+    "independentReview": "no remaining blocking findings",
+    "nativeBindingBuild": "passed",
+    "javascriptBuild": "passed",
+    "regressionHarness": "configCases and runtimeModeConfigCases passed",
+    "linuxRun": "https://github.com/tonoizer/module-federation-global-name-repro/actions/runs/40710533683",
+    "conclusion": "success"
+  }
+}
