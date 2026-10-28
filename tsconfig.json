@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "target": "ES2022",
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noEmit": true,
+    "types": ["vite/client", "node"]
+  },
+  "include": ["apps/host/src", "apps/remote/src", "config"]
+}

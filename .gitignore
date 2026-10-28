@@ -1,0 +1,12 @@
+node_modules/
+dist/
+**/dist/
+.tanstack/
+.vite/
+**/routeTree.gen.ts
+_research/
+_upstream-vite/
+apps/next-host/
+results/logs/
+results/screenshots/
+*.local

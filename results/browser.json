@@ -1,0 +1,1388 @@
+{
+  "date": "2026-10-28T13:39:33.281Z",
+  "browser": "156.0.8078.4",
+  "results": [
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/mf_remote/remoteEntry.js",
+        "/remotes/mf_remote/assets/dist-CPq5DtIh.js",
+        "/remotes/mf_remote/assets/vite-preload-helper-CcOcxnDB.js",
+        "/remotes/mf_remote/assets/_virtual_mf-localSharedImportMap___mfe_internal__mf_remote__mf_owner__1-DUx_09FL.js",
+        "/remotes/mf_remote/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "top",
+      "type": "module",
+      "globalName": "top",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/top/remoteEntry.js",
+        "/remotes/top/assets/dist-CPq5DtIh.js",
+        "/remotes/top/assets/vite-preload-helper-rsnMw4xk.js",
+        "/remotes/top/assets/_virtual_mf-localSharedImportMap___mfe_internal__top__mf_owner__1-Ctx3if5m.js",
+        "/remotes/top/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "self",
+      "type": "module",
+      "globalName": "self",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/self/remoteEntry.js",
+        "/remotes/self/assets/dist-CPq5DtIh.js",
+        "/remotes/self/assets/vite-preload-helper-9L_AZSuu.js",
+        "/remotes/self/assets/_virtual_mf-localSharedImportMap___mfe_internal__self__mf_owner__1-DuM1RljD.js",
+        "/remotes/self/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "parent",
+      "type": "module",
+      "globalName": "parent",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/parent/remoteEntry.js",
+        "/remotes/parent/assets/dist-CPq5DtIh.js",
+        "/remotes/parent/assets/vite-preload-helper-BfGC7sdu.js",
+        "/remotes/parent/assets/_virtual_mf-localSharedImportMap___mfe_internal__parent__mf_owner__1-BflPoGL7.js",
+        "/remotes/parent/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "window",
+      "type": "module",
+      "globalName": "window",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/window/remoteEntry.js",
+        "/remotes/window/assets/dist-CPq5DtIh.js",
+        "/remotes/window/assets/vite-preload-helper-ECARaYP5.js",
+        "/remotes/window/assets/_virtual_mf-localSharedImportMap___mfe_internal__window__mf_owner__1-leXMkChD.js",
+        "/remotes/window/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "document",
+      "type": "module",
+      "globalName": "document",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/document/remoteEntry.js",
+        "/remotes/document/assets/dist-CPq5DtIh.js",
+        "/remotes/document/assets/vite-preload-helper-CxX0PXs1.js",
+        "/remotes/document/assets/_virtual_mf-localSharedImportMap___mfe_internal__document__mf_owner__1-B-7xRDWu.js",
+        "/remotes/document/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "location",
+      "type": "module",
+      "globalName": "location",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/location/remoteEntry.js",
+        "/remotes/location/assets/dist-CPq5DtIh.js",
+        "/remotes/location/assets/vite-preload-helper-Bk7riv27.js",
+        "/remotes/location/assets/_virtual_mf-localSharedImportMap___mfe_internal__location__mf_owner__1-4Tzzz0mO.js",
+        "/remotes/location/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "frames",
+      "type": "module",
+      "globalName": "frames",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/frames/remoteEntry.js",
+        "/remotes/frames/assets/dist-CPq5DtIh.js",
+        "/remotes/frames/assets/vite-preload-helper-CykyjflC.js",
+        "/remotes/frames/assets/_virtual_mf-localSharedImportMap___mfe_internal__frames__mf_owner__1-Du7GgN-b.js",
+        "/remotes/frames/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "globalThis",
+      "type": "module",
+      "globalName": "globalThis",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/globalThis/remoteEntry.js",
+        "/remotes/globalThis/assets/dist-CPq5DtIh.js",
+        "/remotes/globalThis/assets/vite-preload-helper-BrxMTOHV.js",
+        "/remotes/globalThis/assets/_virtual_mf-localSharedImportMap___mfe_internal__globalThis__mf_owner__1-DhOZtYHc.js",
+        "/remotes/globalThis/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "global",
+      "type": "module",
+      "globalName": "global",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/global/remoteEntry.js",
+        "/remotes/global/assets/dist-CPq5DtIh.js",
+        "/remotes/global/assets/vite-preload-helper-DmwK1Y9Q.js",
+        "/remotes/global/assets/_virtual_mf-localSharedImportMap___mfe_internal__global__mf_owner__1-DO_92_QH.js",
+        "/remotes/global/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "process",
+      "type": "module",
+      "globalName": "process",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/process/remoteEntry.js",
+        "/remotes/process/assets/dist-CPq5DtIh.js",
+        "/remotes/process/assets/vite-preload-helper-DahOJzKI.js",
+        "/remotes/process/assets/_virtual_mf-localSharedImportMap___mfe_internal__process__mf_owner__1-BQEJgDBh.js",
+        "/remotes/process/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "Buffer",
+      "type": "module",
+      "globalName": "Buffer",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/Buffer/remoteEntry.js",
+        "/remotes/Buffer/assets/dist-CPq5DtIh.js",
+        "/remotes/Buffer/assets/vite-preload-helper-C7mo2oGT.js",
+        "/remotes/Buffer/assets/_virtual_mf-localSharedImportMap___mfe_internal__Buffer__mf_owner__1-CcDp4URI.js",
+        "/remotes/Buffer/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "console",
+      "type": "module",
+      "globalName": "console",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/console/remoteEntry.js",
+        "/remotes/console/assets/dist-CPq5DtIh.js",
+        "/remotes/console/assets/vite-preload-helper-DLWMG_an.js",
+        "/remotes/console/assets/_virtual_mf-localSharedImportMap___mfe_internal__console__mf_owner__1-DrDi4Yzy.js",
+        "/remotes/console/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "navigator",
+      "type": "module",
+      "globalName": "navigator",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/navigator/remoteEntry.js",
+        "/remotes/navigator/assets/dist-CPq5DtIh.js",
+        "/remotes/navigator/assets/vite-preload-helper-CFM-DzbK.js",
+        "/remotes/navigator/assets/_virtual_mf-localSharedImportMap___mfe_internal__navigator__mf_owner__1-CKJOEM98.js",
+        "/remotes/navigator/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "fetch",
+      "type": "module",
+      "globalName": "fetch",
+      "ownName": "lab_browser_host",
+      "beforeType": "function",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/fetch/remoteEntry.js",
+        "/remotes/fetch/assets/dist-CPq5DtIh.js",
+        "/remotes/fetch/assets/vite-preload-helper-D4qIhxzn.js",
+        "/remotes/fetch/assets/_virtual_mf-localSharedImportMap___mfe_internal__fetch__mf_owner__1-D2gb2R5m.js",
+        "/remotes/fetch/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "performance",
+      "type": "module",
+      "globalName": "performance",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/performance/remoteEntry.js",
+        "/remotes/performance/assets/dist-CPq5DtIh.js",
+        "/remotes/performance/assets/vite-preload-helper-B2f-ASmG.js",
+        "/remotes/performance/assets/_virtual_mf-localSharedImportMap___mfe_internal__performance__mf_owner__1-DMd6iY6x.js",
+        "/remotes/performance/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "crypto",
+      "type": "module",
+      "globalName": "crypto",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/crypto/remoteEntry.js",
+        "/remotes/crypto/assets/dist-CPq5DtIh.js",
+        "/remotes/crypto/assets/vite-preload-helper-LJ7aV8YK.js",
+        "/remotes/crypto/assets/_virtual_mf-localSharedImportMap___mfe_internal__crypto__mf_owner__1-C4Q8Yau2.js",
+        "/remotes/crypto/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "Object",
+      "type": "module",
+      "globalName": "Object",
+      "ownName": "lab_browser_host",
+      "beforeType": "function",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/Object/remoteEntry.js",
+        "/remotes/Object/assets/dist-CPq5DtIh.js",
+        "/remotes/Object/assets/vite-preload-helper-_2PszWhf.js",
+        "/remotes/Object/assets/_virtual_mf-localSharedImportMap___mfe_internal__Object__mf_owner__1-Pvz4vYnS.js",
+        "/remotes/Object/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "constructor",
+      "type": "module",
+      "globalName": "constructor",
+      "ownName": "lab_browser_host",
+      "beforeType": "function",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/constructor/remoteEntry.js",
+        "/remotes/constructor/assets/dist-CPq5DtIh.js",
+        "/remotes/constructor/assets/vite-preload-helper-BPP1Mcxr.js",
+        "/remotes/constructor/assets/_virtual_mf-localSharedImportMap___mfe_internal__constructor__mf_owner__1-BIo8rn2H.js",
+        "/remotes/constructor/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "toString",
+      "type": "module",
+      "globalName": "toString",
+      "ownName": "lab_browser_host",
+      "beforeType": "function",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/toString/remoteEntry.js",
+        "/remotes/toString/assets/dist-CPq5DtIh.js",
+        "/remotes/toString/assets/vite-preload-helper-CrLAqr8O.js",
+        "/remotes/toString/assets/_virtual_mf-localSharedImportMap___mfe_internal__toString__mf_owner__1-z2lUH_AV.js",
+        "/remotes/toString/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "name",
+      "type": "module",
+      "globalName": "name",
+      "ownName": "lab_browser_host",
+      "beforeType": "string",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/name/remoteEntry.js",
+        "/remotes/name/assets/dist-CPq5DtIh.js",
+        "/remotes/name/assets/vite-preload-helper-Bb4jPXHI.js",
+        "/remotes/name/assets/_virtual_mf-localSharedImportMap___mfe_internal__name__mf_owner__1-DzgXZ9Ue.js",
+        "/remotes/name/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "length",
+      "type": "module",
+      "globalName": "length",
+      "ownName": "lab_browser_host",
+      "beforeType": "number",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/length/remoteEntry.js",
+        "/remotes/length/assets/dist-CPq5DtIh.js",
+        "/remotes/length/assets/vite-preload-helper-CiSarjIp.js",
+        "/remotes/length/assets/_virtual_mf-localSharedImportMap___mfe_internal__length__mf_owner__1-5LPwfiNP.js",
+        "/remotes/length/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "origin",
+      "type": "module",
+      "globalName": "origin",
+      "ownName": "lab_browser_host",
+      "beforeType": "string",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/origin/remoteEntry.js",
+        "/remotes/origin/assets/dist-CPq5DtIh.js",
+        "/remotes/origin/assets/vite-preload-helper-BVFmvhvn.js",
+        "/remotes/origin/assets/_virtual_mf-localSharedImportMap___mfe_internal__origin__mf_owner__1-DunVbZCZ.js",
+        "/remotes/origin/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "NaN",
+      "type": "module",
+      "globalName": "NaN",
+      "ownName": "lab_browser_host",
+      "beforeType": "number",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": true,
+      "requests": [
+        "/remotes/NaN/remoteEntry.js",
+        "/remotes/NaN/assets/dist-CPq5DtIh.js",
+        "/remotes/NaN/assets/vite-preload-helper-Ddeo3o9k.js",
+        "/remotes/NaN/assets/_virtual_mf-localSharedImportMap___mfe_internal__NaN__mf_owner__1-BQH6icEI.js",
+        "/remotes/NaN/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "undefined",
+      "type": "module",
+      "globalName": "undefined",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/undefined/remoteEntry.js",
+        "/remotes/undefined/assets/dist-CPq5DtIh.js",
+        "/remotes/undefined/assets/vite-preload-helper-FHlukDi3.js",
+        "/remotes/undefined/assets/_virtual_mf-localSharedImportMap___mfe_internal__undefined__mf_owner__1-CGYnmfPa.js",
+        "/remotes/undefined/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "Infinity",
+      "type": "module",
+      "globalName": "Infinity",
+      "ownName": "lab_browser_host",
+      "beforeType": "number",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/Infinity/remoteEntry.js",
+        "/remotes/Infinity/assets/dist-CPq5DtIh.js",
+        "/remotes/Infinity/assets/vite-preload-helper-BSp5IVc7.js",
+        "/remotes/Infinity/assets/_virtual_mf-localSharedImportMap___mfe_internal__Infinity__mf_owner__1-B4b6Jily.js",
+        "/remotes/Infinity/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "exports",
+      "type": "module",
+      "globalName": "exports",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/exports/remoteEntry.js",
+        "/remotes/exports/assets/dist-CPq5DtIh.js",
+        "/remotes/exports/assets/vite-preload-helper-BvppxT99.js",
+        "/remotes/exports/assets/_virtual_mf-localSharedImportMap___mfe_internal__exports__mf_owner__1-BgsT30F9.js",
+        "/remotes/exports/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "module",
+      "type": "module",
+      "globalName": "module",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/module/remoteEntry.js",
+        "/remotes/module/assets/dist-CPq5DtIh.js",
+        "/remotes/module/assets/vite-preload-helper-DzYr-3OG.js",
+        "/remotes/module/assets/_virtual_mf-localSharedImportMap___mfe_internal__module__mf_owner__1-D3JmC52N.js",
+        "/remotes/module/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "require",
+      "type": "module",
+      "globalName": "require",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/require/remoteEntry.js",
+        "/remotes/require/assets/dist-CPq5DtIh.js",
+        "/remotes/require/assets/vite-preload-helper-EeEBWFtK.js",
+        "/remotes/require/assets/_virtual_mf-localSharedImportMap___mfe_internal__require__mf_owner__1-Ba0AFJUU.js",
+        "/remotes/require/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "setTimeout",
+      "type": "module",
+      "globalName": "setTimeout",
+      "ownName": "lab_browser_host",
+      "beforeType": "function",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "requests": [
+        "/remotes/setTimeout/remoteEntry.js",
+        "/remotes/setTimeout/assets/dist-CPq5DtIh.js",
+        "/remotes/setTimeout/assets/vite-preload-helper-BaBIe8Co.js",
+        "/remotes/setTimeout/assets/_virtual_mf-localSharedImportMap___mfe_internal__setTimeout__mf_owner__1-DWcGD43h.js",
+        "/remotes/setTimeout/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "mf_remote",
+      "type": "var",
+      "globalName": "mf_remote",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": true,
+      "requests": [
+        "/remotes/mf_remote/varRemoteEntry.js",
+        "/remotes/mf_remote/remoteEntry.js",
+        "/remotes/mf_remote/assets/dist-CPq5DtIh.js",
+        "/remotes/mf_remote/assets/vite-preload-helper-CcOcxnDB.js",
+        "/remotes/mf_remote/assets/_virtual_mf-localSharedImportMap___mfe_internal__mf_remote__mf_owner__1-DUx_09FL.js",
+        "/remotes/mf_remote/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "top",
+      "type": "var",
+      "globalName": "top",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"top\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/top/varRemoteEntry.js\",\"remoteEntryKey\":\"top\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "self",
+      "type": "var",
+      "globalName": "self",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"self\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/self/varRemoteEntry.js\",\"remoteEntryKey\":\"self\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "parent",
+      "type": "var",
+      "globalName": "parent",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"parent\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/parent/varRemoteEntry.js\",\"remoteEntryKey\":\"parent\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "window",
+      "type": "var",
+      "globalName": "window",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"window\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/window/varRemoteEntry.js\",\"remoteEntryKey\":\"window\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "document",
+      "type": "var",
+      "globalName": "document",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"document\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/document/varRemoteEntry.js\",\"remoteEntryKey\":\"document\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "location",
+      "type": "var",
+      "globalName": "location",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"location\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/location/varRemoteEntry.js\",\"remoteEntryKey\":\"location\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "frames",
+      "type": "var",
+      "globalName": "frames",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"frames\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/frames/varRemoteEntry.js\",\"remoteEntryKey\":\"frames\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "globalThis",
+      "type": "var",
+      "globalName": "globalThis",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"globalThis\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/globalThis/varRemoteEntry.js\",\"remoteEntryKey\":\"globalThis\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "global",
+      "type": "var",
+      "globalName": "global",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": true,
+      "requests": [
+        "/remotes/global/varRemoteEntry.js",
+        "/remotes/global/remoteEntry.js",
+        "/remotes/global/assets/dist-CPq5DtIh.js",
+        "/remotes/global/assets/vite-preload-helper-DmwK1Y9Q.js",
+        "/remotes/global/assets/_virtual_mf-localSharedImportMap___mfe_internal__global__mf_owner__1-DO_92_QH.js",
+        "/remotes/global/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "process",
+      "type": "var",
+      "globalName": "process",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": true,
+      "requests": [
+        "/remotes/process/varRemoteEntry.js",
+        "/remotes/process/remoteEntry.js",
+        "/remotes/process/assets/dist-CPq5DtIh.js",
+        "/remotes/process/assets/vite-preload-helper-DahOJzKI.js",
+        "/remotes/process/assets/_virtual_mf-localSharedImportMap___mfe_internal__process__mf_owner__1-BQEJgDBh.js",
+        "/remotes/process/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "Buffer",
+      "type": "var",
+      "globalName": "Buffer",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": true,
+      "requests": [
+        "/remotes/Buffer/varRemoteEntry.js",
+        "/remotes/Buffer/remoteEntry.js",
+        "/remotes/Buffer/assets/dist-CPq5DtIh.js",
+        "/remotes/Buffer/assets/vite-preload-helper-C7mo2oGT.js",
+        "/remotes/Buffer/assets/_virtual_mf-localSharedImportMap___mfe_internal__Buffer__mf_owner__1-CcDp4URI.js",
+        "/remotes/Buffer/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "console",
+      "type": "var",
+      "globalName": "console",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"console\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/console/varRemoteEntry.js\",\"remoteEntryKey\":\"console\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "navigator",
+      "type": "var",
+      "globalName": "navigator",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"navigator\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/navigator/varRemoteEntry.js\",\"remoteEntryKey\":\"navigator\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "fetch",
+      "type": "var",
+      "globalName": "fetch",
+      "ownName": "lab_browser_host",
+      "beforeType": "function",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"fetch\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/fetch/varRemoteEntry.js\",\"remoteEntryKey\":\"fetch\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "performance",
+      "type": "var",
+      "globalName": "performance",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"performance\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/performance/varRemoteEntry.js\",\"remoteEntryKey\":\"performance\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "crypto",
+      "type": "var",
+      "globalName": "crypto",
+      "ownName": "lab_browser_host",
+      "beforeType": "object",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"crypto\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/crypto/varRemoteEntry.js\",\"remoteEntryKey\":\"crypto\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "Object",
+      "type": "var",
+      "globalName": "Object",
+      "ownName": "lab_browser_host",
+      "beforeType": "function",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"Object\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/Object/varRemoteEntry.js\",\"remoteEntryKey\":\"Object\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "constructor",
+      "type": "var",
+      "globalName": "constructor",
+      "ownName": "lab_browser_host",
+      "beforeType": "function",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"constructor\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/constructor/varRemoteEntry.js\",\"remoteEntryKey\":\"constructor\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "toString",
+      "type": "var",
+      "globalName": "toString",
+      "ownName": "lab_browser_host",
+      "beforeType": "function",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"toString\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/toString/varRemoteEntry.js\",\"remoteEntryKey\":\"toString\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "name",
+      "type": "var",
+      "globalName": "name",
+      "ownName": "lab_browser_host",
+      "beforeType": "string",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"name\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/name/varRemoteEntry.js\",\"remoteEntryKey\":\"name\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": true,
+      "requests": [
+        "/remotes/name/varRemoteEntry.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "length",
+      "type": "var",
+      "globalName": "length",
+      "ownName": "lab_browser_host",
+      "beforeType": "number",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": true,
+      "requests": [
+        "/remotes/length/varRemoteEntry.js",
+        "/remotes/length/remoteEntry.js",
+        "/remotes/length/assets/dist-CPq5DtIh.js",
+        "/remotes/length/assets/vite-preload-helper-CiSarjIp.js",
+        "/remotes/length/assets/_virtual_mf-localSharedImportMap___mfe_internal__length__mf_owner__1-5LPwfiNP.js",
+        "/remotes/length/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "origin",
+      "type": "var",
+      "globalName": "origin",
+      "ownName": "lab_browser_host",
+      "beforeType": "string",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"origin\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/origin/varRemoteEntry.js\",\"remoteEntryKey\":\"origin\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "NaN",
+      "type": "var",
+      "globalName": "NaN",
+      "ownName": "lab_browser_host",
+      "beforeType": "number",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Failed to get remoteEntry exports. #RUNTIME-001\nargs: {\"remoteName\":\"NaN\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/NaN/varRemoteEntry.js\",\"remoteEntryKey\":\"NaN\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-001",
+      "globalChanged": true,
+      "requests": [
+        "/remotes/NaN/varRemoteEntry.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "undefined",
+      "type": "var",
+      "globalName": "undefined",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Failed to get remoteEntry exports. #RUNTIME-001\nargs: {\"remoteName\":\"undefined\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/undefined/varRemoteEntry.js\",\"remoteEntryKey\":\"undefined\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-001",
+      "globalChanged": false,
+      "requests": [
+        "/remotes/undefined/varRemoteEntry.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "Infinity",
+      "type": "var",
+      "globalName": "Infinity",
+      "ownName": "lab_browser_host",
+      "beforeType": "number",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"Infinity\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/Infinity/varRemoteEntry.js\",\"remoteEntryKey\":\"Infinity\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "exports",
+      "type": "var",
+      "globalName": "exports",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": true,
+      "requests": [
+        "/remotes/exports/varRemoteEntry.js",
+        "/remotes/exports/remoteEntry.js",
+        "/remotes/exports/assets/dist-CPq5DtIh.js",
+        "/remotes/exports/assets/vite-preload-helper-BvppxT99.js",
+        "/remotes/exports/assets/_virtual_mf-localSharedImportMap___mfe_internal__exports__mf_owner__1-BgsT30F9.js",
+        "/remotes/exports/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "module",
+      "type": "var",
+      "globalName": "module",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": true,
+      "requests": [
+        "/remotes/module/varRemoteEntry.js",
+        "/remotes/module/remoteEntry.js",
+        "/remotes/module/assets/dist-CPq5DtIh.js",
+        "/remotes/module/assets/vite-preload-helper-DzYr-3OG.js",
+        "/remotes/module/assets/_virtual_mf-localSharedImportMap___mfe_internal__module__mf_owner__1-D3JmC52N.js",
+        "/remotes/module/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "require",
+      "type": "var",
+      "globalName": "require",
+      "ownName": "lab_browser_host",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": true,
+      "requests": [
+        "/remotes/require/varRemoteEntry.js",
+        "/remotes/require/remoteEntry.js",
+        "/remotes/require/assets/dist-CPq5DtIh.js",
+        "/remotes/require/assets/vite-preload-helper-EeEBWFtK.js",
+        "/remotes/require/assets/_virtual_mf-localSharedImportMap___mfe_internal__require__mf_owner__1-Ba0AFJUU.js",
+        "/remotes/require/assets/message-CIqneHg0.js"
+      ],
+      "pageErrors": []
+    },
+    {
+      "name": "setTimeout",
+      "type": "var",
+      "globalName": "setTimeout",
+      "ownName": "lab_browser_host",
+      "beforeType": "function",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_browser_host\",\"remoteName\":\"setTimeout\",\"remoteEntryUrl\":\"http://127.0.0.1:4320/remotes/setTimeout/varRemoteEntry.js\",\"remoteEntryKey\":\"setTimeout\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002",
+      "globalChanged": false,
+      "requests": [],
+      "pageErrors": []
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "mf_remote",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "top",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "self",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "parent",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "window",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "document",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "location",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "frames",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "globalThis",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "global",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "process",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "Buffer",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "console",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "navigator",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "fetch",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "performance",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "crypto",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "Object",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "constructor",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "toString",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "name",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "length",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "origin",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "NaN",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "undefined",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "Infinity",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "exports",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "module",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "require",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "name": "mf_remote",
+      "type": "module",
+      "globalName": "mf_remote",
+      "ownName": "setTimeout",
+      "beforeType": "undefined",
+      "message": "federated-ok",
+      "ok": true,
+      "globalChanged": false,
+      "test": "own-host-name"
+    },
+    {
+      "test": "direct-var-script",
+      "name": "mf_remote",
+      "changed": true,
+      "type": "object",
+      "initType": "function",
+      "pageErrors": [],
+      "navigations": []
+    },
+    {
+      "test": "direct-var-script",
+      "name": "top",
+      "changed": false,
+      "type": "object",
+      "initType": "undefined",
+      "pageErrors": [],
+      "navigations": []
+    },
+    {
+      "test": "direct-var-script",
+      "name": "self",
+      "changed": true,
+      "type": "object",
+      "initType": "function",
+      "pageErrors": [],
+      "navigations": []
+    },
+    {
+      "test": "direct-var-script",
+      "name": "parent",
+      "changed": true,
+      "type": "object",
+      "initType": "function",
+      "pageErrors": [],
+      "navigations": []
+    },
+    {
+      "test": "direct-var-script",
+      "name": "window",
+      "changed": false,
+      "type": "object",
+      "initType": "undefined",
+      "pageErrors": [],
+      "navigations": []
+    },
+    {
+      "test": "direct-var-script",
+      "name": "document",
+      "changed": false,
+      "type": "object",
+      "initType": "undefined",
+      "pageErrors": [],
+      "navigations": []
+    },
+    {
+      "test": "direct-var-script",
+      "name": "location",
+      "snapshotLost": true,
+      "pageErrors": [],
+      "navigations": [
+        "http://127.0.0.1:4320/[object%20Object]"
+      ]
+    },
+    {
+      "test": "direct-var-script",
+      "name": "frames",
+      "changed": true,
+      "type": "object",
+      "initType": "function",
+      "pageErrors": [],
+      "navigations": []
+    },
+    {
+      "test": "direct-var-script",
+      "name": "name",
+      "changed": true,
+      "type": "string",
+      "initType": "undefined",
+      "pageErrors": [],
+      "navigations": []
+    },
+    {
+      "test": "direct-var-script",
+      "name": "globalThis",
+      "changed": true,
+      "type": "object",
+      "initType": "function",
+      "pageErrors": [],
+      "navigations": []
+    }
+  ]
+}

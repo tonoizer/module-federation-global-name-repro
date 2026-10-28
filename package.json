@@ -1,0 +1,38 @@
+{
+  "name": "federation-global-name-lab",
+  "version": "1.0.0",
+  "description": "Reproduce Module Federation global name collisions in TanStack Start SSR and browsers",
+  "scripts": {
+    "dev:host": "vite --config apps/host/vite.config.ts",
+    "dev:remote": "vite --config apps/remote/vite.config.ts",
+    "build:host": "vite build --config apps/host/vite.config.ts",
+    "build:remote": "vite build --config apps/remote/vite.config.ts",
+    "build:fixtures": "node scripts/build-matrix.mjs",
+    "test:browser": "node scripts/test-browser.mjs",
+    "test:node": "node scripts/test-node.mjs",
+    "test:start": "node scripts/test-start.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build:fixtures && npm run test:browser && npm run test:node && npm run test:start && npm run typecheck && npm run report",
+    "report": "node scripts/report.mjs"
+  },
+  "dependencies": {
+    "@module-federation/runtime": "2.9.2",
+    "@module-federation/vite": "1.23.6",
+    "@tanstack/react-router": "1.170.46",
+    "@tanstack/react-start": "1.169.4",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "playwright": "1.64.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  }
+}
