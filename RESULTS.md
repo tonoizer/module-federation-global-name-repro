@@ -1,6 +1,6 @@
 # Observed results
 
-Recorded 2026-10-28T13:41:53.929Z. Environment: win32, Node v24.19.0, Chromium 156.0.8078.4.
+Recorded 2026-10-28T14:11:24.879Z. Environment: win32, Node v24.19.0, Chromium 156.0.8078.4.
 
 - @module-federation/vite: 1.23.6
 - @module-federation/runtime: 2.9.2
@@ -102,9 +102,37 @@ These tests explicitly execute the generated script, bypassing the runtime's sho
 
 The location script navigates to /[object%20Object]. Writable globals such as self, parent and frames are replaced; top, window and document retain their original values. This is a separate effect from the loader skipping a remote because a global already exists.
 
+## Rspack and Rsbuild use cases
+
+The native Rspack 1.5 and enhanced Rspack 2 hosts/remotes are production-style compiler fixtures. The Rsbuild pair is an actual React microfrontend: a safe-name control must render and increment the remote counter; colliding names fail before requesting the remote entry.
+
+| Integration | Name | Outcome | Remote entry requests |
+| --- | --- | --- | --- |
+| Rspack builtin-1.5 | `mf_safe` | PASS | 1 |
+| Rspack builtin-1.5 | `top` | RUNTIME-002 | 0 |
+| Rspack builtin-1.5 | `self` | RUNTIME-002 | 0 |
+| Rspack builtin-1.5 | `document` | RUNTIME-002 | 0 |
+| Rspack builtin-1.5 | `location` | RUNTIME-002 | 0 |
+| Rspack builtin-1.5 | `globalThis` | RUNTIME-002 | 0 |
+| Rspack enhanced-2 | `mf_safe` | PASS | 1 |
+| Rspack enhanced-2 | `top` | RUNTIME-002 | 0 |
+| Rspack enhanced-2 | `self` | RUNTIME-002 | 0 |
+| Rspack enhanced-2 | `document` | RUNTIME-002 | 0 |
+| Rspack enhanced-2 | `location` | RUNTIME-002 | 0 |
+| Rspack enhanced-2 | `globalThis` | RUNTIME-002 | 0 |
+| Rsbuild React microfrontend | `mf_remote` | PASS, counter clicked | 1 |
+| Rsbuild React microfrontend | `top` | RUNTIME-002 | 0 |
+| Rsbuild React microfrontend | `self` | RUNTIME-002 | 0 |
+| Rsbuild React microfrontend | `document` | RUNTIME-002 | 0 |
+| Rsbuild React microfrontend | `location` | RUNTIME-002 | 0 |
+| Rsbuild React microfrontend | `globalThis` | RUNTIME-002 | 0 |
+
+Versions: @rspack/core 2.2.9, @module-federation/enhanced 2.9.2, @rsbuild/core 2.2.14, @module-federation/rsbuild-plugin 2.9.2.
+
 ## Verification boundaries
 
 - 100 browser observations, 120 Node observations, and 23 full Start scenarios.
+- 12 Rspack compiled host/remote cases and 6 Rsbuild React microfrontend cases.
 - Production browser and SSR remote fixtures are built before the runtime matrices.
 - Full Start SSR/hydration scenarios run in development, with fresh application processes for each scenario.
 - Both Start production builds and TypeScript are separate smoke checks; no production application deployment was tested.

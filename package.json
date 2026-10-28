@@ -12,12 +12,21 @@
     "test:node": "node scripts/test-node.mjs",
     "test:start": "node scripts/test-start.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "npm run build:fixtures && npm run test:browser && npm run test:node && npm run test:start && npm run typecheck && npm run report",
-    "report": "node scripts/report.mjs"
+    "test": "npm run build:fixtures && npm run test:browser && npm run test:node && npm run test:start && npm run test:rspack && npm run test:rsbuild && npm run typecheck && npm run report",
+    "report": "node scripts/report.mjs",
+    "dev:rsbuild-host": "node scripts/rsbuild-dev.mjs host",
+    "dev:rsbuild-remote": "node scripts/rsbuild-dev.mjs remote",
+    "test:rsbuild": "node scripts/test-rsbuild.mjs",
+    "test:rspack": "node scripts/test-rspack.mjs"
   },
   "dependencies": {
+    "@module-federation/enhanced": "2.9.2",
+    "@module-federation/rsbuild-plugin": "2.9.2",
     "@module-federation/runtime": "2.9.2",
     "@module-federation/vite": "1.23.6",
+    "@rsbuild/core": "2.2.14",
+    "@rsbuild/plugin-react": "2.1.1",
+    "@rspack/core": "2.2.9",
     "@tanstack/react-router": "1.170.46",
     "@tanstack/react-start": "1.169.4",
     "@types/node": "26.6.5",

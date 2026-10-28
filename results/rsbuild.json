@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-28T14:11:38.314Z",
+  "results": [
+    {
+      "name": "mf_remote",
+      "interactive": true,
+      "entryRequests": [
+        "http://127.0.0.1:4341/remoteEntry.js"
+      ]
+    },
+    {
+      "name": "top",
+      "interactive": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"rsbuild_host\",\"remoteName\":\"top\",\"remoteEntryUrl\":\"http://127.0.0.1:4341/remoteEntry.js\",\"remoteEntryKey\":\"top\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./Counter\" from webpack/container/reference/remote",
+      "entryRequests": []
+    },
+    {
+      "name": "self",
+      "interactive": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"rsbuild_host\",\"remoteName\":\"self\",\"remoteEntryUrl\":\"http://127.0.0.1:4341/remoteEntry.js\",\"remoteEntryKey\":\"self\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./Counter\" from webpack/container/reference/remote",
+      "entryRequests": []
+    },
+    {
+      "name": "document",
+      "interactive": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"rsbuild_host\",\"remoteName\":\"document\",\"remoteEntryUrl\":\"http://127.0.0.1:4341/remoteEntry.js\",\"remoteEntryKey\":\"document\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./Counter\" from webpack/container/reference/remote",
+      "entryRequests": []
+    },
+    {
+      "name": "location",
+      "interactive": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"rsbuild_host\",\"remoteName\":\"location\",\"remoteEntryUrl\":\"http://127.0.0.1:4341/remoteEntry.js\",\"remoteEntryKey\":\"location\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./Counter\" from webpack/container/reference/remote",
+      "entryRequests": []
+    },
+    {
+      "name": "globalThis",
+      "interactive": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"rsbuild_host\",\"remoteName\":\"globalThis\",\"remoteEntryUrl\":\"http://127.0.0.1:4341/remoteEntry.js\",\"remoteEntryKey\":\"globalThis\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./Counter\" from webpack/container/reference/remote",
+      "entryRequests": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "rspack": "2.2.9",
+  "enhanced": "2.9.2",
+  "patchedCore": false,
+  "results": [
+    {
+      "kind": "builtin-1.5",
+      "name": "mf_safe",
+      "ok": true,
+      "message": "rspack-federated-ok",
+      "remoteRequests": [
+        "/builtin-1.5/mf_safe/remote/remoteEntry.js",
+        "/builtin-1.5/mf_safe/remote/message_js.js"
+      ]
+    },
+    {
+      "kind": "builtin-1.5",
+      "name": "top",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_host\",\"remoteName\":\"top\",\"remoteEntryUrl\":\"http://127.0.0.1:4330/builtin-1.5/top/remote/remoteEntry.js\",\"remoteEntryKey\":\"top\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "builtin-1.5",
+      "name": "self",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_host\",\"remoteName\":\"self\",\"remoteEntryUrl\":\"http://127.0.0.1:4330/builtin-1.5/self/remote/remoteEntry.js\",\"remoteEntryKey\":\"self\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "builtin-1.5",
+      "name": "document",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_host\",\"remoteName\":\"document\",\"remoteEntryUrl\":\"http://127.0.0.1:4330/builtin-1.5/document/remote/remoteEntry.js\",\"remoteEntryKey\":\"document\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "builtin-1.5",
+      "name": "location",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_host\",\"remoteName\":\"location\",\"remoteEntryUrl\":\"http://127.0.0.1:4330/builtin-1.5/location/remote/remoteEntry.js\",\"remoteEntryKey\":\"location\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "builtin-1.5",
+      "name": "globalThis",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_host\",\"remoteName\":\"globalThis\",\"remoteEntryUrl\":\"http://127.0.0.1:4330/builtin-1.5/globalThis/remote/remoteEntry.js\",\"remoteEntryKey\":\"globalThis\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "mf_safe",
+      "ok": true,
+      "message": "rspack-federated-ok",
+      "remoteRequests": [
+        "/enhanced-2/mf_safe/remote/remoteEntry.js",
+        "/enhanced-2/mf_safe/remote/message_js.js"
+      ]
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "top",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_host\",\"remoteName\":\"top\",\"remoteEntryUrl\":\"http://127.0.0.1:4330/enhanced-2/top/remote/remoteEntry.js\",\"remoteEntryKey\":\"top\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "self",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_host\",\"remoteName\":\"self\",\"remoteEntryUrl\":\"http://127.0.0.1:4330/enhanced-2/self/remote/remoteEntry.js\",\"remoteEntryKey\":\"self\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "document",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_host\",\"remoteName\":\"document\",\"remoteEntryUrl\":\"http://127.0.0.1:4330/enhanced-2/document/remote/remoteEntry.js\",\"remoteEntryKey\":\"document\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "location",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_host\",\"remoteName\":\"location\",\"remoteEntryUrl\":\"http://127.0.0.1:4330/enhanced-2/location/remote/remoteEntry.js\",\"remoteEntryKey\":\"location\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "globalThis",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: The remote entry interface does not contain \"init\" #RUNTIME-002\nargs: {\"hostName\":\"lab_host\",\"remoteName\":\"globalThis\",\"remoteEntryUrl\":\"http://127.0.0.1:4330/enhanced-2/globalThis/remote/remoteEntry.js\",\"remoteEntryKey\":\"globalThis\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/runtime#runtime-002\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Module Federation global name reproduction
 
-Reproduces name collisions with `@module-federation/vite` using **TanStack Start for both host and remote**, plus isolated browser and Node loader tests. This repository investigates behavior; it does not patch Module Federation.
+Reproduces name collisions with **TanStack Start + Vite**, **Rspack native/enhanced federation**, and an interactive **Rsbuild React host/remote microfrontend**, plus isolated browser and Node loader tests. Published dependencies reproduce the original behavior; upstream fixes are linked in [PR coordination](PR-COORDINATION.md).
 
 **Confirmed:** browser `var` remotes named `top`, `self`, `parent`, `window`, `document`, `location`, or `frames` fail with `RUNTIME-002`. The loader mistakes an existing global for an already loaded container and never requests the entry. In the TanStack Start pair, SSR succeeds but browser hydration fails.
 
@@ -8,7 +8,7 @@ This is **not a blanket failure of federation instance names**: the same names w
 
 ## Run
 
-Requires Node 24 (tested with 24.19.0), npm, and free ports **4310, 4311, 4320**.
+Requires Node 24 (tested with 24.19.0), npm, and free ports **4310, 4311, 4320, 4330, 4340, 4341**.
 
 ```sh
 npm ci
@@ -37,6 +37,12 @@ $env:MF_REMOTE_TYPE = 'var'
 Restart both processes after changing names. With `MF_REMOTE_TYPE=module`, the same `top` remote works. `MF_HOST_NAME` independently changes only the host's own federation name. Defaults are `mf_remote`, `mf_host`, and `module`.
 
 ## Results and scope
+
+### Rsbuild React microfrontend
+
+Run `npm run dev:rsbuild-remote` and `npm run dev:rsbuild-host` in separate terminals, then visit http://127.0.0.1:4340. Set `MF_REMOTE_NAME=top` in both terminals and restart to reproduce the browser collision. The remote exports a React counter; the host imports it through Module Federation and shares React as a singleton. This is a client-rendered microfrontend use case, complementary to the TanStack SSR case.
+
+`npm run test:rsbuild` validates six scenarios, including clicking the safe-name remote counter. `npm run test:rspack` separately compiles and runs twelve native/enhanced Rspack host/remote scenarios. We use Rsbuild as the additional app framework; this repository does not claim to have tested a separate Modern.js application.
 
 See [RESULTS.md](RESULTS.md) and the committed [raw evidence](results/). These are observed results for the pinned versions, not a guarantee for every bundler, browser, runtime, or future release.
 
@@ -80,4 +86,4 @@ The Start pair explicitly configures `ssrEntryLoader` with shared-package `file:
 
 The isolated production SSR fixtures use the Vite loader's `vm` strategy to avoid a separate Windows temp-file import path problem. The browser-only `var` output hook is restricted to the client environment in the Start config; otherwise it also runs on the SSR build and cannot find a browser `remoteEntry.js` chunk. These are independent baseline configuration issues, not evidence of name collisions. Dependencies are unmodified.
 
-Use application-specific names such as `acme_catalog_remote` and an explicit remote type. A fixed denylist cannot cover custom globals, polyfills, or future platform additions. No upstream fix, issue, or pull request is included in this investigation.
+Use application-specific names such as `acme_catalog_remote` and an explicit remote type. A fixed denylist cannot cover custom globals, polyfills, or future platform additions. The three upstream fixes and their distinct validation scopes are linked in [PR coordination](PR-COORDINATION.md).

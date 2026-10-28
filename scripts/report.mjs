@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { names } from './names.mjs'
 const read = async name => JSON.parse(await readFile(`results/${name}.json`, 'utf8'))
 const browser = await read('browser'), node = await read('node'), start = await read('tanstack-start')
+const rspack = await read('rspack'), rsbuild = await read('rsbuild')
 const mark = r => r?.ok ? 'PASS' : r?.error?.includes('RUNTIME-002') ? 'RUNTIME-002' : 'FAIL'
 const rows = names.map(name => {
   const b = type => browser.results.find(r => r.name === name && r.type === type && !r.test)
@@ -49,9 +50,21 @@ ${browser.results.filter(r => r.test === 'direct-var-script').map(r => `| \`${r.
 
 The location script navigates to /[object%20Object]. Writable globals such as self, parent and frames are replaced; top, window and document retain their original values. This is a separate effect from the loader skipping a remote because a global already exists.
 
+## Rspack and Rsbuild use cases
+
+The native Rspack 1.5 and enhanced Rspack 2 hosts/remotes are production-style compiler fixtures. The Rsbuild pair is an actual React microfrontend: a safe-name control must render and increment the remote counter; colliding names fail before requesting the remote entry.
+
+| Integration | Name | Outcome | Remote entry requests |
+| --- | --- | --- | --- |
+${rspack.results.map(r => `| Rspack ${r.kind} | \`${r.name}\` | ${r.ok ? 'PASS' : 'RUNTIME-002'} | ${r.remoteRequests.filter(p => p.endsWith('remoteEntry.js')).length} |`).join('\n')}
+${rsbuild.results.map(r => `| Rsbuild React microfrontend | \`${r.name}\` | ${r.interactive ? 'PASS, counter clicked' : 'RUNTIME-002'} | ${r.entryRequests.length} |`).join('\n')}
+
+Versions: @rspack/core ${packageJson.dependencies['@rspack/core']}, @module-federation/enhanced ${packageJson.dependencies['@module-federation/enhanced']}, @rsbuild/core ${packageJson.dependencies['@rsbuild/core']}, @module-federation/rsbuild-plugin ${packageJson.dependencies['@module-federation/rsbuild-plugin']}.
+
 ## Verification boundaries
 
 - ${browser.results.length} browser observations, ${node.results.length} Node observations, and ${start.results.length} full Start scenarios.
+- ${rspack.results.length} Rspack compiled host/remote cases and ${rsbuild.results.length} Rsbuild React microfrontend cases.
 - Production browser and SSR remote fixtures are built before the runtime matrices.
 - Full Start SSR/hydration scenarios run in development, with fresh application processes for each scenario.
 - Both Start production builds and TypeScript are separate smoke checks; no production application deployment was tested.
@@ -60,4 +73,4 @@ The location script navigates to /[object%20Object]. Writable globals such as se
 - Chromium and Node 24 were tested. Other engines, Vite versions, and older federation releases may differ.
 `
 await writeFile('RESULTS.md', text)
-console.log(`Report: ${browser.results.length + node.results.length + start.results.length} observations`)
+console.log(`Report: ${browser.results.length + node.results.length + start.results.length + rspack.results.length + rsbuild.results.length} observations`)

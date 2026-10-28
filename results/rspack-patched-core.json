@@ -1,0 +1,97 @@
+{
+  "rspack": "2.2.9",
+  "enhanced": "2.9.2",
+  "patchedCore": true,
+  "results": [
+    {
+      "kind": "builtin-1.5",
+      "name": "mf_safe",
+      "ok": true,
+      "message": "rspack-federated-ok",
+      "remoteRequests": [
+        "/builtin-1.5/mf_safe/remote/remoteEntry.js",
+        "/builtin-1.5/mf_safe/remote/message_js.js"
+      ]
+    },
+    {
+      "kind": "builtin-1.5",
+      "name": "top",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Remote entry global name collision: \"top\" for remote \"top\" is already defined and is not a Module Federation container. Choose a different remote container name and matching entryGlobalName.\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "builtin-1.5",
+      "name": "self",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Remote entry global name collision: \"self\" for remote \"self\" is already defined and is not a Module Federation container. Choose a different remote container name and matching entryGlobalName.\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "builtin-1.5",
+      "name": "document",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Remote entry global name collision: \"document\" for remote \"document\" is already defined and is not a Module Federation container. Choose a different remote container name and matching entryGlobalName.\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "builtin-1.5",
+      "name": "location",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Remote entry global name collision: \"location\" for remote \"location\" is already defined and is not a Module Federation container. Choose a different remote container name and matching entryGlobalName.\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "builtin-1.5",
+      "name": "globalThis",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Remote entry global name collision: \"globalThis\" for remote \"globalThis\" is already defined and is not a Module Federation container. Choose a different remote container name and matching entryGlobalName.\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "mf_safe",
+      "ok": true,
+      "message": "rspack-federated-ok",
+      "remoteRequests": [
+        "/enhanced-2/mf_safe/remote/remoteEntry.js",
+        "/enhanced-2/mf_safe/remote/message_js.js"
+      ]
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "top",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Remote entry global name collision: \"top\" for remote \"top\" is already defined and is not a Module Federation container. Choose a different remote container name and matching entryGlobalName.\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "self",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Remote entry global name collision: \"self\" for remote \"self\" is already defined and is not a Module Federation container. Choose a different remote container name and matching entryGlobalName.\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "document",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Remote entry global name collision: \"document\" for remote \"document\" is already defined and is not a Module Federation container. Choose a different remote container name and matching entryGlobalName.\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "location",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Remote entry global name collision: \"location\" for remote \"location\" is already defined and is not a Module Federation container. Choose a different remote container name and matching entryGlobalName.\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    },
+    {
+      "kind": "enhanced-2",
+      "name": "globalThis",
+      "ok": false,
+      "error": "Error: [ Federation Runtime ]: Remote entry global name collision: \"globalThis\" for remote \"globalThis\" is already defined and is not a Module Federation container. Choose a different remote container name and matching entryGlobalName.\nwhile loading \"./message\" from webpack/container/reference/probe",
+      "remoteRequests": []
+    }
+  ]
+}
