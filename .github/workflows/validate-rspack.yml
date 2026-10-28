@@ -15,6 +15,7 @@ jobs:
     env:
       CARGO_INCREMENTAL: '0'
       CARGO_BUILD_JOBS: '2'
+      CARGO_PROFILE_DEV_DEBUG: '0'
       PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
       PUPPETEER_SKIP_DOWNLOAD: '1'
     steps:
@@ -28,6 +29,10 @@ jobs:
       - run: npm install --global pnpm@11.28.8
       - run: pnpm install --frozen-lockfile
       - run: rustup show
+      - uses: actions/cache@v4
+        with:
+          path: target
+          key: rspack-native-${{ runner.os }}-${{ hashFiles('Cargo.lock') }}
       - run: cargo fmt --all --check
       - run: cargo codegen
       - run: pnpm run build:binding:dev
